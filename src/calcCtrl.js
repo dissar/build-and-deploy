@@ -24,7 +24,7 @@
           var result = firstArg / secondArg;
           vm.result = result;
         } else {
-          vm.result = 'Cannot divide by zero'
+          vm.result = 'You have reached singularity. Welcome.'
         }
       }
       else {
