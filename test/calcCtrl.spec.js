@@ -169,7 +169,7 @@ describe('the calculation controller', function () {
         var ctrl = createController();
         ctrl.calculate(10, 0, operator);
 
-        expect(ctrl.result).toBe('You have reached neverland. Welcome.');
+        expect(ctrl.result).toBe('You have reached singularity. Welcome.');
       });
     });
 
