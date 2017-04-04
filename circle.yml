@@ -7,8 +7,8 @@
 #  override:
 #    - grunt test
 
-#deployment:
-#  prod:
-#    branch: master
-#    heroku:
-#      appname: nerdschool-deploy
+deployment:
+  prod:
+    branch: master
+    heroku:
+      appname: nerdschool-build-and-deploy
